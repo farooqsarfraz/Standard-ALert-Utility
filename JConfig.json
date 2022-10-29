@@ -1,0 +1,83 @@
+{
+	"DBCredentials" : 
+	{
+		"prod" : 
+		{
+			"host" : "***********" ,
+			"user" : "***********" ,
+			"passwd" : "***********" ,
+			"db" : "***********" ,
+			"db_stg" : "" ,
+			"port" : 3307
+		},
+		"arch": 
+		{
+			"host" : "***********" ,
+			"user" : "***********" ,
+			"passwd" : "***********" ,
+			"db" : "***********" ,
+			"db_stg" : "***********" ,
+			"db_btnh" : "***********" ,
+			"port" : 3307
+		},
+		"ai" : 
+		{
+			"host" : "***********" ,
+			"user" : "***********" ,
+			"passwd" : "***********" ,
+			"db" : "***********" ,
+			"db_stg" : "***********" ,
+			"port" : 3307
+		},
+		"stg": 
+		{
+			"host" : "***********" ,
+			"user" : "***********" ,
+			"passwd" : "***********" ,
+			"db" : "***********" ,
+			"port" : 3307
+		}
+	},
+
+	"EmailInfo" : 
+	{
+		"Email_To"    : "Saqib.Ishtiaq@afiniti.com" ,
+		"Email_From"  : "verizonwireless@afiniti.com" ,
+		"Email_CC"    : "Saqib.Ishtiaq@afiniti.com" ,
+		"Email_BCC"   : "" ,
+		"SMTP_HOST"       : "vzsmtp.verizon.com" 
+	},
+	
+	"ClientDetails" : 
+	{
+		"programid"           : "Care",
+		"Clientname"          : "Verizon" ,
+		"Data_Lag"            : 1 ,
+		"Red_Blue_Status"     : "y",
+		"Team"                : "Red",
+		"Alert_Config_detail" : ["ai","smexplorerdata"]
+	},
+	
+	"SoftwareDetails" :
+	{
+		"ZipExePath": "C:/Program Files/7-Zip/7z"
+	},
+
+	"Lookup_Tables" : 
+	{
+		"Table_Notation" : 
+		{
+			"crm_new": ["CRM_","1.0"] ,
+			"device":["Device_","1.0"] ,
+			"pd":["PD_","1.0"] ,
+			"call_stats":["BTNH_","1.0"] ,
+			"intraday_red":["BTNH_INTRA_","2.0"] ,
+			"grf":["grf_","1.0"]
+		},
+		"EngineID_Prod" : "VZWLS_INTERNAL_CISCO" ,
+		"Last_NDays" : 5 ,
+		"AI_SME_Table" : "`vzwlsintcare_smedata_current_red_v`",
+		"AI_Callguid_Column_Name" : "Callguid"
+	}
+
+}
